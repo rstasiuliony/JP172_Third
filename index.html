@@ -2,263 +2,244 @@
 <html lang="en">
 
 <head>
-    <title>Bookstore</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Denis Chetverikov, Ernesta Duglas, Rasa Valanciunaite, Renata Stasiulionyte, Redas Peskaitis">
-    <meta name="description" content="In this website you can be bought most famous books from UK, USA, Australia, India and other countries.">
+	<title>Bookstore</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Denis Chetverikov, Ernesta Duglas, Rasa Valanciunaite, Renata Stasiulionyte, Redas Peskaitis">
+	<meta name="description" content="In this website you can be bought most famous books from UK, USA, Australia, India and other countries.">
 
-    <!--  Čia įdėti CSS failo nuorodą:  -->
-    <link href="#" rel="stylesheet">
-    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<!-- To be added link to CSS:  -->
+	<link href="#" rel="stylesheet">
+	<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
 
-    <!--Žemiau nuoroda, reikalinga, kad veiktų žvaigždutės.-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Required for stars rating:-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!--Virsutine juodoji juosta:-->
-    <header class="top">
-        <div id="buttons"><img src="images/icons/three_circles.png" alt="colors" /></div>
-        <div id="name">
-            <img src="images/icons/now_reading.png" alt="iconbook" />
-            <p>MyBookApp</p>
-        </div>
-        <div class="headermenu">
-            <ul class="topmenu">
-                <!-- Nuorodos paruoštos, bet dar kol kas niekur neveda-->
-                <li><a href="#">Help Center</a></li>
-                <li><a href="#">Our Support</a></li>
-                <li><a href="#"><img src="#" alt="userphoto" /> John Doe <img src="images/icons/logged_in.png" alt="logged" /> </a>
-                    <ul class="topdown">
-                        <!--vieta nusileidzianciam meniu, jei jis bus-->
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </header>
+	<!--Top black bar:-->
+	<header class="top">
+		<div id="name">
+			<img src="images/icons/now_reading.png" alt="iconbook" />
+			<p>MyBookApp</p>
+		</div>
+		<div class="headermenu">
+			<ul class="topmenu">
+				<!-- Links to be added:-->
+				<li><a href="#">Help Center</a></li>
+				<li><a href="#">Our Support</a></li>
+				<li><a href="#">Login</a>
+					<ul class="topdown">
+						<!--Place for drop down.-->
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</header>
 
-    <!--Šoninė kairioji juosta:-->
-    <nav class="sidenav">
-        <div class="navtop">
-            <button type="button">+ ADD A BOOK</button>
-        </div>
-        <div class="navmenu">
-            <ul class="mainmenu">
-                <!-- Nuorodos paruoštos, bet dar kol kas niekur neveda-->
-                <li><a href="#"><img src="images/icons/now_reading.png" alt="iconbook" />Now Reading</a></li>
-                <li><a href="#"><img src="images/icons/browse.png" alt="iconbrowse" />Browse</a></li>
-                <li><a href="#"><img src="images/icons/buy_books.png" alt="iconbuy" />Buy Books</a></li>
-                <li><a href="#"><img src="images/icons/favourite_books.png" alt="iconfav" />Favourite Books</a></li>
-                <li><a href="#"><img src="images/icons/whishlist.png" alt="iconlist" />Wishlist</a></li>
-                <li><a href="#"><img src="images/icons/history.png" alt="iconhist" />History</a></li>
-            </ul>
-        </div>
-        <div class="colormenu">
-            <ul class="sidemenu">
-                <!-- Nuorodos paruoštos, bet dar kol kas niekur neveda-->
-                <li id="red"><a href="#">Must Read Titles</a></li>
-                <li id="yellow"><a href="#">Best Of List</a></li>
-                <li id="blue"><a href="#">Classic Novels</a></li>
-                <li id="purple"><a href="#">Non Fiction</a></li>
-            </ul>
-        </div>
-        <div class="diversmenu">
-            <ul class="bottommenu">
-                <!-- Nuorodos paruoštos, bet dar kol kas niekur neveda-->
-                <li>
-                    <p class="divers">
-                        You added <a href="#"></a> by <a href="#"></a> to your <a href="#"></a></p>
-                    <p class="time">minutes ago</p>
-                </li>
-                <li>
-                    <p class="divers">
-                        You added <a href="#"></a> by <a href="#"></a> to your <a href="#"></a></p>
-                    <p class="time">minutes ago</p>
-                </li>
-            </ul>
-        </div>
-    </nav>
+	<!--Left side bar:-->
+	<nav class="sidenav">
+		<div class="navmenu">
+			<ul class="mainmenu">
+				<!-- Links to be added:-->
+				<li><a href="#"><img src="images/icons/browse.png" alt="iconbrowse" />Browse</a></li>
+				<li><a href="#"><img src="images/icons/buy_books.png" alt="iconbuy" />Buy Books</a></li>
+				<li><a href="#"><img src="images/icons/favourite_books.png" alt="iconfav" />Favourite Books</a></li>
+				<li><a href="#"><img src="images/icons/whishlist.png" alt="iconlist" />Wishlist</a></li>
+			</ul>
+		</div>
+	</nav>
 
-    <main>
-        <!--Pilkoji virsutine dalis:-->
-        <div class="toppart">
-            <h2>Browse Available Books</h2>
-            <ul class="inlinemenu">
-                <!-- Nuorodos paruoštos, bet dar kol kas niekur neveda-->
-                <li><a href="#">All Books</a></li>
-                <li><a href="#">Most Recent</a></li>
-                <li><a href="#">Most Popular</a></li>
-                <li><a href="#">Free Books</a></li>
-            </ul>
-            <!--Žemiau paieškos laukelis. Patarimas Rasai CSS daliai - pažaisk su relative/absolute position, kad stiklas atsidurtų laukelio viduje-->
-            <div class="search-container">
-                <form action="search">
-                    <input type="text" placeholder="Enter keywords" name="search" id="searchtext">
-                    <i class="fa fa-search" id="magnifyingglass"></i>
-                </form>
-            </div>
-        </div>
+	<main>
+		<!--Top grey part:-->
+		<div class="toppart">
+			<h2>Browse Available Books</h2>
+			<ul class="inlinemenu">
+				<!-- Nuorodos paruoštos, bet dar kol kas niekur neveda-->
+				<li><a href="#">All Books</a></li>
+				<li><a href="#">Most Recent</a></li>
+				<li><a href="#">Most Popular</a></li>
+				<li><a href="#">Free Books</a></li>
+			</ul>
+			<!--Search field. (Possible solution to use relative/absolute for magnifying glass):-->
+			<div class="search-container">
+				<form action="search">
+					<input type="text" placeholder="Enter keywords" name="search" id="searchtext">
+					<i class="fa fa-search" id="magnifyingglass"></i>
+				</form>
+			</div>
+		</div>
 
-        <!--Knygu dalis:-->
-        <div class="wholeblock">
-            <!-- Nuorodos paruoštos, bet dar kol kas niekur neveda-->
-            <!-- Rasa, kad zvaigzdutes butu oranzines, uzteks klaseje stars irasyti color: orange-->
-            <div class="book" id="first">
-                <a href="#">
+		<!--Books part:-->
+		<div class="wholeblock">
+			<!-- Links to be added-->
+			<!-- For stars please use color: orange-->
+			<div class="book" id="first">
+				<a href="#">
                         <img src="images/cakes_and_bakes.png" alt="book"/>
                     </a>
-                <p><a href="#">Cakes &#38; Bakes</a></p>
-                <p>by <a href="#">Sanjeev Kapoor</a></p>
-                <p class="stars">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </p>
-            </div>
-            <div class="book" id="second">
-                <a href="#">
+				<p><a href="#">Cakes &#38; Bakes</a></p>
+				<p>by <a href="#">Sanjeev Kapoor</a></p>
+				<p class="stars">
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star-o"></i>
+					<i class="fa fa-star-o"></i>
+				</p>
+			</div>
+			<div class="book" id="second">
+				<a href="#">
                         <img src="images/cook_like_an_italian.png" alt="book"/>
                     </a>
-                <p><a href="#">Cool Like an Italian</a></p>
-                <p>by <a href="#">Tobie Puttock</a></p>
-                <p class="stars">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </p>
-            </div>
-            <div class="book" id="third">
-                <a href="#">
+				<p><a href="#">Cool Like an Italian</a></p>
+				<p>by <a href="#">Tobie Puttock</a></p>
+				<p class="stars">
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star-o"></i>
+					<i class="fa fa-star-o"></i>
+				</p>
+			</div>
+			<div class="book" id="third">
+				<a href="#">
                         <img src="images/inexpensive_family_meals.png" alt="book"/>
                     </a>
-                <p><a href="#">Inexpensive Family Meals</a></p>
-                <p>by <a href="#">Simon Holst</a></p>
-                <p class="stars">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-o"></span>
-                    <span class="fa fa-star-o"></span>
-                </p>
-            </div>
-            <div class="book" id="fourth">
-                <a href="#">
+				<p><a href="#">Inexpensive Family Meals</a></p>
+				<p>by <a href="#">Simon Holst</a></p>
+				<p class="stars">
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star-o"></span>
+					<span class="fa fa-star-o"></span>
+					<span class="fa fa-star-o"></span>
+				</p>
+			</div>
+			<div class="book" id="fourth">
+				<a href="#">
                         <img src="images/jamie_does.png" alt="book"/>
                     </a>
-                <p><a href="#">Jamie Does</a></p>
-                <p>by <a href="#">Jamie Oliver</a></p>
-                <p class="stars">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star-half-o checked"></i>
-                    <i class="fa fa-star-o"></i>
-                </p>
-            </div>
-            <div class="book" id="fifth">
-                <a href="#">
+				<p><a href="#">Jamie Does</a></p>
+				<p>by <a href="#">Jamie Oliver</a></p>
+				<p class="stars">
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star-half-o checked"></i>
+					<i class="fa fa-star-o"></i>
+				</p>
+			</div>
+			<div class="book" id="fifth">
+				<a href="#">
                         <img src="images/jamies_italy.png" alt="book"/>
                     </a>
-                <p><a href="#">Jamie&#39;s Italy</a></p>
-                <p>by <a href="#">Jamie Oliver</a></p>
-                <p class="stars">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                </p>
-            </div>
-            <div class="book" id="six">
-                <a href="#">
+				<p><a href="#">Jamie&#39;s Italy</a></p>
+				<p>by <a href="#">Jamie Oliver</a></p>
+				<p class="stars">
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+				</p>
+			</div>
+			<div class="book" id="six">
+				<a href="#">
                         <img src="images/jamies_kitchen.png" alt="book"/>
                     </a>
-                <p><a href="#">Jamie&#39;s Kitchen</a></p>
-                <p>by <a href="#">Jamie Oliver</a></p>
-                <p class="stars">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star-half-o checked"></i>
-                    <i class="fa fa-star-o"></i>
-                </p>
-            </div>
-            <div class="book" id="seventh">
-                <a href="#">
+				<p><a href="#">Jamie&#39;s Kitchen</a></p>
+				<p>by <a href="#">Jamie Oliver</a></p>
+				<p class="stars">
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star-half-o checked"></i>
+					<i class="fa fa-star-o"></i>
+				</p>
+			</div>
+			<div class="book" id="seventh">
+				<a href="#">
                         <img src="images/jewels_of_nizam.png" alt="book"/>
                     </a>
-                <p><a href="#">Jewels of Nizam</a></p>
-                <p>by <a href="#">Geeta Devi</a></p>
-                <p class="stars">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star-half-o checked"></i>
-                    <i class="fa fa-star-o"></i>
-                </p>
-            </div>
-            <div class="book" id="eight">
-                <a href="#">
+				<p><a href="#">Jewels of Nizam</a></p>
+				<p>by <a href="#">Geeta Devi</a></p>
+				<p class="stars">
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star-half-o checked"></i>
+					<i class="fa fa-star-o"></i>
+				</p>
+			</div>
+			<div class="book" id="eight">
+				<a href="#">
                         <img src="images/paleo_slow_cooking.png" alt="book"/>
                     </a>
-                <p><a href="#">Paleo Slow Cooking</a></p>
-                <p>by <a href="#">Chrissy Gower</a></p>
-                <p class="stars">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </p>
-            </div>
-            <div class="book" id="nine">
-                <a href="#">
+				<p><a href="#">Paleo Slow Cooking</a></p>
+				<p>by <a href="#">Chrissy Gower</a></p>
+				<p class="stars">
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star-o"></i>
+					<i class="fa fa-star-o"></i>
+				</p>
+			</div>
+			<div class="book" id="nine">
+				<a href="#">
                         <img src="images/suneeta_vaswani.png" alt="book"/>
                     </a>
-                <p><a href="#">Suneeta Vaswani</a></p>
-                <p>by <a href="#">Geeta Devi</a></p>
-                <p class="stars">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </p>
-            </div>
-            <div class="book" id="tenth">
-                <a href="#">
+				<p><a href="#">Suneeta Vaswani</a></p>
+				<p>by <a href="#">Geeta Devi</a></p>
+				<p class="stars">
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star-o"></i>
+					<i class="fa fa-star-o"></i>
+					<i class="fa fa-star-o"></i>
+				</p>
+			</div>
+			<div class="book" id="tenth">
+				<a href="#">
                         <img src="images/vegetables_cookbook.png" alt="book"/>
                     </a>
-                <p><a href="#">Vegetables Cookbook</a></p>
-                <p>by <a href="#">Matthew Biggs</a></p>
-                <p class="stars">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                </p>
-            </div>
-        </div>
-    </main>
+				<p><a href="#">Vegetables Cookbook</a></p>
+				<p>by <a href="#">Matthew Biggs</a></p>
+				<p class="stars">
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+				</p>
+			</div>
+		</div>
+	</main>
 
-    <footer>
-        <!--Apatinė juosta:-->
-        <ul class="help">
-            <li><a href="#"><img src="images/icons/help.png" alt="help" /></a></li>
-            <li>
-                <a href="#"><img src="images/icons/settings.png" alt="settings" /></a>
-                <ul class="downtop">
-                    <!-- vieta pakylanciam meniu, jei jis bus-->
-                </ul>
-            </li>
-        </ul>
-    </footer>
+	<footer>
+		<!--Footer part:-->
+		<!--        Bubbles:-->
+		<div class="cont" id=" container">
+			<div class="object1" id="one"></div>
+			<div class="object2" id="two"></div>
+			<div class="object3" id="three"></div>
+		</div>
+		<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+		<!--       Other:-->
+
+		<ul class="help">
+			<li><a href="#"><img src="images/icons/help.png" alt="help" /></a></li>
+			<li>
+				<a href="#"><img src="images/icons/settings.png" alt="settings" /></a>
+				<ul class="downtop">
+					<!-- please for down-top menu of settings-->
+				</ul>
+			</li>
+		</ul>
+	</footer>
 </body>
 
 </html>
