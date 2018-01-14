@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: gray;
+    
+}
+
+.grid-container {
+    box-sizing: border-box;
+    width: 1100px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    margin: auto;
+    font-size: 1.2rem;
+    background-color: aliceblue;
+    
+    color:#c0c0c0 solid;
+    grid-gap: 30px;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: left;
+  
+}
+.grid-container p{
+    padding-left: 10px;
+    
+}
+h4{
+ text-align: center;   
+
+}
+.up{
+   margin: auto; 
+    border:0.5px #c0c0c0 solid;
+    height: 270px;
+    width: 270px;
+    background-color: aliceblue;
+}
+.up img {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+#contacts img{
+    padding-left: 73px;
+    padding-top: 60px;
+}
+#delivery img{
+    padding-left: 73px;
+    padding-top: 15px;
+}
+#how to pay{
+    color: blue;
+    
+}
+.grid-container1 {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    margin: auto;
+   
+    grid-gap: 20px;
+}
+a {
+    text-decoration: none;
+}
+.icon{
+    float: left;
+}
+.grid-container1 p {
+    height: 100px;
+    padding-right: 50px;
+   padding-top: 1rem;
+    padding-right: 0rem;
+   
+    padding-left: 0rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    color:#c0c0c0 solid;
+    border-bottom: 1px  #c0c0c0 solid;
+    cursor: pointer;
+    
+    
+    
+}
